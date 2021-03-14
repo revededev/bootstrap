@@ -1,0 +1,31 @@
+body{text-align: center;}
+.navbar-light a.navbar-brand{
+    max-width: 200px;
+}
+.logo {
+    max-width: calc(100% - 3rem);
+    background-size: cover;
+}
+.hero{
+    background-image: url("../img/hero.jpg");
+    background-position: center center;
+    min-height: 80vh;
+}
+.join-us {
+    background-image: url("../img/subscribe.jpg");
+    background-position: cover;
+    position: center center;
+}
+input {
+    width: 100%;
+}
+li{
+    list-style-type: none;
+}
+.department-list > li{
+    background-color: rgb(66, 233, 203);
+    box-sizing: border-box;
+}
+.department-list > li > li{
+    background-color: #eee;
+}
